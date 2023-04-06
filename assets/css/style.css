@@ -8,7 +8,7 @@ html {
 body {
 	font: 15px/1.5 "Roboto Mono", Helvetica, sans-serif;
 	color: #ebebea;
-	background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+	background: radial-gradient(ellipse at bottom, #232a5b 0%, #110318 100%);
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -46,7 +46,7 @@ body {
     height: 4px;
 	background: rgb(203, 219, 255);
 	border-radius: 100%;
-	filter: drop-shadow(0 0 6px rgb(175, 201, 255));
+	filter: drop-shadow(0 0 6px rgb(255, 175, 230));
     animation:  animate 3s linear infinite;
 }
 
@@ -57,7 +57,7 @@ body {
     transform: translateY(-50%);
     width: 300px;
     height: 1px;
-    background: linear-gradient(90deg, rgba(95, 145, 255, 0.75), transparent);
+    background: linear-gradient(90deg, rgba(226, 95, 255, 0.75), transparent);
 }
 
 @keyframes animate {
@@ -173,8 +173,8 @@ a {
 }
 
 a:hover, a:focus {
-	color: #6daeff;
-	border-bottom: 1px solid #8ad2ff;
+	color: #c572cd;
+	border-bottom: 1px solid #b18aff;
 }
 
 ::-moz-focus-inner {
